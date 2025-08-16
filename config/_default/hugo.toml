@@ -52,11 +52,12 @@ resampleFilter = "Lanczos"
 ############################# Caches ###############################
 [caches]
 [caches.images]
-dir = ":resourceDir/_gen"
+dir = ":cacheDir/images" 
+###:resourceDir/_gen#
 maxAge = "720h"
 
 [caches.assets]
-dir = ":resourceDir/_gen"
+dir = ":cacheDir/assets" ###:resourceDir/_gen#
 maxAge = "720h"
 
 ############################# Markup ###############################

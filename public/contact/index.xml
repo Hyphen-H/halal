@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Halal | China Halal Food Export</title>
-    <link>/contact/</link>
+    <link>https://hyphen-h.github.io/halal/contact/</link>
     <description>Recent content in Contact on Halal | China Halal Food Export</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hyphen-h.github.io/halal/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

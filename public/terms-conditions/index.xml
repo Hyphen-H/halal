@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terms &amp; Conditions on Halal | China Halal Food Export</title>
-    <link>/terms-conditions/</link>
+    <link>https://hyphen-h.github.io/halal/terms-conditions/</link>
     <description>Recent content in Terms &amp; Conditions on Halal | China Halal Food Export</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/terms-conditions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hyphen-h.github.io/halal/terms-conditions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

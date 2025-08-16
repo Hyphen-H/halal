@@ -24,7 +24,7 @@ about:
             - For each product, on-site inspections are carried out to verify that all products comply with halal standards,
               not just on paper but in actual practice.  \n
             - Food safety and hygiene are strictly enforced undergo inspections, not merely based on documentation"
-  image : "images/About.png"
+  image : "images/about.png"
   button:
     label : "All Products"
     link : "products/"

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # ...existing code...
-baseURL = "/"
+baseURL = "https://hyphen-h.github.io/halal/"
 languageCode = "en"
 title = "Halal | China Halal Food Export"
 theme = "hargo-hugo"

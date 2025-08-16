@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/hargo/site/"
+baseURL = ""
 languageCode = "en"
-title = "Hargo | China Halal Food"
+title = "Halal | China Halal Food Export"
 theme = "hargo-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
@@ -72,6 +72,8 @@ link = "plugins/bootstrap/bootstrap.min.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/fontawesome/css/all.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -90,57 +92,68 @@ link = "plugins/google-map/gmap.js"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "CN Halal Food Trade"
+author = "Cao Bo"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-mapLatitude = "51.5223477"
-mapLongitude = "-0.1622023"
+mapLatitude = "40.8138"
+mapLongitude = "111.657916"
 mapMarker = "images/marker.png"
 # Google Analitycs
-googleAnalyticsID = "" # Your ID
+googleAnalyticsID = "G-1XX27NKVDQ" # Your ID
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+#mobile = "+86 180 4835 4026"
+email = "hyphenhhh@gmail.com"
+location = "Huhhot, China"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; 2025 [CNHalalTrade](https://cnhalaltrade.com) All Rights Reserved |"
 # Snipcart Credentials
-snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+#snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+#currencySymbol = "$"
 
 # Preloader
 [params.preloader]
 enable = true
-preloader = "" # use .png , .svg or .gif format
+preloader = "images/islam-preloader.gif" # use .png , .svg or .gif format
 
 # Product Rating
 # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
-[params.rating]
-enable = true
-websiteID = "444334"
-publicKey = "811cf0927332bf51f2e12f84608594ac"
+#[params.rating]
+#enable = false
+#websiteID = "444334"
+#publicKey = "811cf0927332bf51f2e12f84608594ac"
 
 # Social Site
 [[params.social]]
-icon = "ti-facebook"
+icon = "fa-brands fa-square-facebook"
 link = "#"
 
 [[params.social]]
-icon = "ti-twitter-alt"
+icon = "fa-brands fa-youtube"
+link = "https://www.youtube.com/@MrBeast"
+
+[[params.social]]
+icon = "fa-brands fa-instagram"
 link = "#"
 
 [[params.social]]
-icon = "ti-youtube"
+icon = "fa-brands fa-square-x-twitter"
 link = "#"
 
 [[params.social]]
-icon = "ti-instagram"
+icon = "fa-brands fa-tiktok" #whatsapp fontawesome
 link = "#"
 
 [[params.social]]
-icon = "ti-pinterest"
+icon = "fa-brands fa-linkedin-in"
 link = "#"
+
+#[[params.social]]
+#icon = "ti-pinterest"
+#icon = "fa-brands fa-whatsapp"
+#link = "https://wa.me/8618048354026"
+
+
 
 # Contact Form
 [params.contact]

@@ -17,18 +17,31 @@
       <div class="col-md-4 col-sm-6">
         <h5 class="font-weight-medium mb-4">{{i18n `connect_us`}}</h5>
         <ul class="list-unstyled mb-5">
-          <li class="mb-3"><a class="text-color" href="tel:{{ site.Params.mobile }}"><i
-                class="ti-mobile text-primary mr-2"></i>
-              {{ site.Params.mobile }}</a></li>
+          <li class="mb-3">
+            <a class="text-color d-block" href="https://wa.me/8618048354026" target="_blank">
+              <i class="fa-brands fa-whatsapp text-success mr-2"></i>+86 180 4835 4026
+            </a>
+          </li>
+          <li class="mb-3">
+            <a class="text-color d-block" href="https://wa.me/8618647154056" target="_blank">
+              <i class="fa-brands fa-whatsapp text-success mr-2"></i>+86 186 4715 4056
+            </a>
+          </li>
+                    <li class="mb-3">
+            <a class="text-color d-block" href="https://wa.me/8613238424056" target="_blank">
+              <i class="fa-brands fa-whatsapp text-success mr-2"></i>+86 132 3842 4056
+            </a>
+          </li>
+          <!-- 更多 WhatsApp 可继续添加 -->
           <li class="mb-3"><a class="text-color" href="mailto:{{ site.Params.email }}"><i
-                class="ti-email text-primary mr-2"></i> {{ site.Params.email }}</a></li>
-          <li class="mb-3"><i class="ti-location-pin text-primary mr-2"></i> {{ site.Params.location }}
+                class="fa-solid fa-envelope text-primary mr-2"></i> {{ site.Params.email }}</a></li>
+          <li class="mb-3"><i class="fa-solid fa-location-dot text-primary mr-2"></i> {{ site.Params.location }}
           </li>
         </ul>
         <!-- Social Icons -->
         <ul class="list-inline">
           {{ range site.Params.social }}
-          <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }} text-primary"></i></a></li>
+          <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank"><i class="{{ .icon }} text-primary"></i></a></li>
           {{ end }}
         </ul>
       </div>
@@ -50,10 +63,12 @@
   </div>
 </footer>
 
+{{/*
 {{ with site.Params.snipcartApiKey }}
 {{ "<!-- Snipcart -->" | safeHTML }}
 <div id="snipcart" data-api-key="{{ . }}" hidden></div>
 {{ end }}
+*/}}
 
 {{ "<!-- Google Maps API -->" | safeHTML }}
 <script src="{{ site.Params.gmapAPI | absURL }}"></script>

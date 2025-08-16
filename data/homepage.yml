@@ -1,9 +1,9 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "All the Best <span style=\"color:#009944;\">Halal</span> Food,
+    From China"
+  content : "We offer a wide range of high-quality halal food products that are carefully selected to meet the needs of our customers."
   image : "images/banner.png"
   # button
   button:
@@ -12,22 +12,25 @@ banner:
     link : "products/"
   # demo video
   video:
-    enable : true
+    enable : false
     videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
-  image : "images/about.png"
-
-
+  title : "<span style=\"color:#009944;\">Halal</span>, Qualified"
+  content : "- All products undergo strict quality control procedures \n
+            - Certified by HACCP, ISO 22000, BRC, HALAL, check out more [here](products/) \n
+            - For each product, on-site inspections are carried out to verify that all products comply with halal standards,
+              not just on paper but in actual practice.  \n
+            - Food safety and hygiene are strictly enforced undergo inspections, not merely based on documentation"
+  image : "images/About.png"
+  button:
+    label : "All Products"
+    link : "products/"
 ###################### Call to action ########################
 cta:
-  enable : true
+  enable : false
   title : "Buy one Get One Free Taba Cream"
   content : "Available for limited time only. Grab one while you still can!"
   image : "images/cta.png"
@@ -40,8 +43,7 @@ cta:
 material:
   enable : true
   title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  subtitle : "We make sure everything's <span style=\"color:#009944;\">Halal</span> during production process"
   materialItem:
     # material item loop
     - title : "Matcha Seeds"
@@ -81,7 +83,7 @@ advantage:
 
 ######################## Promo Video ##########################
 video:
-  enable : true
+  enable : false
   title : "How To Use This Product?"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
